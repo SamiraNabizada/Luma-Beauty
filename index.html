@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f3ef">
+  <title>لوما بیوتی | فروشگاه آنلاین زیبایی</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- نوار بالای صفحه -->
+  <header class="navbar">
+    <a href="#home" class="logo">LUMA <span>BEAUTY</span></a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#home">صفحه اصلی</a>
+      <a href="#best-sellers">بهترین محصولات</a>
+      <a href="#all-products">همه محصولات</a>
+      <a href="#about">درباره ما</a>
+    </nav>
+
+    <button class="cart-toggle" id="cart-toggle">
+      <span>سبد خرید</span>
+      <span class="cart-count" id="cart-count">۰</span>
+    </button>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="باز کردن فهرست">
+      ☰
+    </button>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+        <span class="eyebrow">زیبایی، با انتخابی خاص</span>
+
+        <h1>
+          زیبایی تو،
+          <span>درخشش تو</span>
+        </h1>
+
+        <p>
+          با مجموعه‌ای از محصولات آرایشی و مراقبت از پوست،
+          زیبایی طبیعی خود را بیشتر نمایان بساز.
+        </p>
+
+        <a href="#best-sellers" class="primary-button">
+          مشاهده بهترین محصولات
+        </a>
+      </div>
+
+      <!-- پنج محصول اصلی Hero -->
+      <div class="hero-stage">
+
+        <div class="hero-product hero-1" data-product="1">
+          <img
+            src="https://pngimg.com/uploads/perfume/perfume_PNG10280.png"
+            alt="عطر زنانه لوکس"
+          >
+        </div>
+
+        <div class="hero-product hero-2" data-product="2">
+          <img
+            src="https://pngimg.com/uploads/lipstick/lipstick_PNG5.png"
+            alt="رژ لب مخملی"
+          >
+        </div>
+
+        <div class="hero-product hero-3" data-product="3">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/086/723/203/small_2x/rose-gold-makeup-powder-compact-mirror-open-on-transparent-background-png.png"
+            alt="کریم مرطوب‌کننده"
+          >
+        </div>
+
+        <div class="hero-product hero-4" data-product="4">
+          <img
+            src="https://pngimg.com/uploads/mascara/mascara_PNG20.png"
+            alt="ریمل حجم‌دهنده"
+          >
+        </div>
+
+        <div class="hero-product hero-5" data-product="5">
+          <img
+            src="https://pngimg.com/uploads/nail_polish/nail_polish_PNG24.png"
+            alt="لاک ناخن"
+          >
+        </div>
+
+      </div>
+
+      <div class="hero-bottom">
+        <span>مجموعه‌ای برای زیبایی تو</span>
+        <span>برای دیدن محصولات، اسکرول کن ↓</span>
+      </div>
+
+    </section>
+
+    <!-- بهترین محصولات -->
+    <section class="best-section" id="best-sellers">
+
+      <div class="section-heading">
+        <span class="eyebrow">انتخاب‌های ویژه</span>
+        <h2>بهترین محصولات</h2>
+        <p>محصولات محبوب و منتخب ما برای زیبایی بیشتر تو</p>
+      </div>
+
+      <div class="products-grid best-grid">
+
+        <article class="product-card">
+          <div class="product-visual">
+            <span class="product-tag">پرفروش</span>
+            <img class="best-product-image" data-product="1"
+              src="https://pngimg.com/uploads/perfume/perfume_PNG10280.png"
+              alt="عطر زنانه لوکس">
+          </div>
+          <div class="product-info">
+            <span class="product-category">عطر و خوشبوکننده</span>
+            <h3>عطر زنانه لوکس</h3>
+            <div class="product-bottom">
+              <strong>۱٬۲۰۰ افغانی</strong>
+              <button class="add-button" data-best-id="1" aria-label="افزودن به سبد">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-visual">
+            <span class="product-tag">محبوب</span>
+            <img class="best-product-image" data-product="2"
+              src="https://pngimg.com/uploads/lipstick/lipstick_PNG5.png"
+              alt="رژ لب مخملی">
+          </div>
+          <div class="product-info">
+            <span class="product-category">آرایش لب</span>
+            <h3>رژ لب مخملی</h3>
+            <div class="product-bottom">
+              <strong>۳۵۰ افغانی</strong>
+              <button class="add-button" data-best-id="2" aria-label="افزودن به سبد">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-visual">
+            <span class="product-tag">ویژه</span>
+            <img class="best-product-image" data-product="3"
+              src="https://pngimg.com/uploads/cosmetics/cosmetics_PNG39.png"
+              alt="کریم مرطوب‌کننده">
+          </div>
+          <div class="product-info">
+            <span class="product-category">مراقبت از پوست</span>
+            <h3>کریم مرطوب‌کننده</h3>
+            <div class="product-bottom">
+              <strong>۵۵۰ افغانی</strong>
+              <button class="add-button" data-best-id="3" aria-label="افزودن به سبد">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-visual">
+            <span class="product-tag">جدید</span>
+            <img class="best-product-image" data-product="4"
+              src="https://pngimg.com/uploads/mascara/mascara_PNG20.png"
+              alt="ریمل حجم‌دهنده">
+          </div>
+          <div class="product-info">
+            <span class="product-category">آرایش چشم</span>
+            <h3>ریمل حجم‌دهنده</h3>
+            <div class="product-bottom">
+              <strong>۴۰۰ افغانی</strong>
+              <button class="add-button" data-best-id="4" aria-label="افزودن به سبد">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-visual">
+            <span class="product-tag">پیشنهادی</span>
+            <img class="best-product-image" data-product="5"
+              src="https://pngimg.com/uploads/nail_polish/nail_polish_PNG24.png"
+              alt="لاک ناخن">
+          </div>
+          <div class="product-info">
+            <span class="product-category">زیبایی ناخن</span>
+            <h3>لاک ناخن رنگی</h3>
+            <div class="product-bottom">
+              <strong>۲۵۰ افغانی</strong>
+              <button class="add-button" data-best-id="5" aria-label="افزودن به سبد">+</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- همه محصولات -->
+    <section class="all-section" id="all-products">
+
+      <div class="section-heading">
+        <span class="eyebrow">مجموعه لوما بیوتی</span>
+        <h2>همه محصولات</h2>
+        <p>محصول مورد علاقه‌ات را پیدا کن و سفارش بده</p>
+      </div>
+
+      <div class="search-area">
+        <input
+          type="search"
+          id="product-search"
+          placeholder="نام یا دسته‌بندی محصول را جستجو کن..."
+          autocomplete="off"
+        >
+        <span>⌕</span>
+      </div>
+
+      <p class="search-result" id="search-result">۱۰ محصول در فروشگاه</p>
+
+      <div class="products-grid all-products-grid" id="all-products-grid"></div>
+
+      <p class="no-products" id="no-products" hidden>
+        محصولی با این نام پیدا نشد.
+      </p>
+
+    </section>
+
+    <!-- درباره ما -->
+    <section class="about-section" id="about">
+      <span class="eyebrow">داستان ما</span>
+      <h2>زیبایی، انتخاب توست</h2>
+      <p>
+        در لوما بیوتی باور داریم که هر فرد زیبایی منحصربه‌فرد خود را دارد.
+        ما تلاش می‌کنیم محصولات مورد نیازت را با انتخابی آسان در دسترس تو قرار دهیم.
+      </p>
+      <a href="#all-products" class="primary-button">خرید را آغاز کن</a>
+    </section>
+
+  </main>
+
+  <!-- پای صفحه -->
+  <footer>
+    <a href="#home" class="logo">LUMA <span>BEAUTY</span></a>
+    <p>با عشق برای زیبایی تو ساخته شده است.</p>
+    <small>© ۲۰۲۶ لوما بیوتی - تمامی حقوق محفوظ است.</small>
+  </footer>
+
+  <!-- پس‌زمینه سبد خرید -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+
+  <!-- پنل سبد خرید -->
+  <aside class="cart-drawer" id="cart-drawer">
+
+    <div class="cart-header">
+      <h2>سبد خرید من</h2>
+      <button id="close-cart" class="close-cart" aria-label="بستن سبد">×</button>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+      <p class="empty-cart">سبد خرید شما خالی است.</p>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>مجموع قابل پرداخت:</span>
+        <strong id="cart-total">۰ افغانی</strong>
+      </div>
+
+      <button class="checkout-button" id="checkout-button" disabled>
+        تکمیل سفارش
+      </button>
+    </div>
+
+  </aside>
+
+  <!-- کتابخانه GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
